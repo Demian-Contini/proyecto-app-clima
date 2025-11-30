@@ -10,13 +10,19 @@ export const WeatherApp = () => {
   const diffKelvin = 273.15 // Cambio a grados Celsious
   
   
+const handleSubmit = (event) => {
+
+  event.preventDefault()
+  console.log('Hola Mundo')
+}
+
     return (
     
     <div className = "container">
 
     <h1>Aplicación del clima actual</h1>
 
-    <form>
+    <form onSubmit={handleSubmit}>
         
         <input type="text" placeholder = "Ingresa una ciudad"/>
         <button type = "submit"> Buscar </button>

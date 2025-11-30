@@ -1,3 +1,38 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 h1 {
-    color: red;
+
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] { 
+    flex: 1;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+button {
+        padding: 10px 20px;
+        background-color: rgb(53, 130, 153);
+        color: white;
+        border:none;
+        border:4px;
+        cursor: pointer;
+        transition: 1s all ease;
+}
+
+button:hover { 
+    background-color: rgb(14, 62, 77);
+
 }
