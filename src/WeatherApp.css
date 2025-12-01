@@ -1,12 +1,12 @@
 .container {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 20px;
 }
 
 h1 {
 
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -35,4 +35,18 @@ button {
 button:hover { 
     background-color: rgb(14, 62, 77);
 
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
 }
